@@ -41,6 +41,11 @@ h1 {
   padding: 10px 20px;
 }
 
+.current-date {
+  font-size: 15px;
+  padding: 15px 0px 10px 45px;
+}
+
 .current-temperature-container {
   background-color: rgb(217, 164, 129);
 }
