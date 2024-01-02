@@ -7,7 +7,7 @@ body {
 
 .main-container {
   background-color: rgb(244, 201, 173);
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  box-shadow: 3px 3px 1px black;
   max-width: 900px;
   margin: 30px auto;
   border-radius: 20px;
@@ -43,19 +43,42 @@ h1 {
 
 .current-date {
   font-size: 15px;
-  padding: 15px 0px 10px 45px;
+  padding: 15px 0px 0px 45px;
+}
+
+.details-container {
+  display: flex;
+  justify-content: space-around;
 }
 
 .current-temperature-container {
   background-color: rgb(217, 164, 129);
+  border-radius: 10px;
+  box-shadow: 3px 3px 1px black;
+  margin: 30px auto;
+  max-width: 90px;
+  padding: 30px;
+  text-align: center;
 }
 
 .current-humidity-container {
+  text-align: center;
   background-color: rgb(217, 164, 129);
+  border-radius: 10px;
+  box-shadow: 3px 3px 1px black;
+  margin: 30px auto;
+  max-width: 90px;
+  padding: 30px;
 }
 
 .current-moon-container {
+  text-align: center;
   background-color: rgb(217, 164, 129);
+  border-radius: 10px;
+  box-shadow: 3px 3px 1px black;
+  margin: 30px auto;
+  max-width: 90px;
+  padding: 30px;
 }
 
 footer {
