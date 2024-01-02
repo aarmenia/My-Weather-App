@@ -14,48 +14,50 @@
   </head>
   <body>
     <div class="main-container">
-      <header>
-        <div class="form-container">
-          <form>
-            <input type="search" />
-            <input type="submit" />
+      <header class="header-container">
+        <h1>Current City</h1>
+
+        <div class="search-form-container">
+          <form class="search-form">
+            <input type="search" required class="search-form-input" />
+            <input type="submit" class="search-form-button" />
           </form>
         </div>
       </header>
       <main>
-        <h1>Current City</h1>
         <p>Friday, 13th November, 14:20</p>
+        <div class="details-container">
+          <div class="current-temperature-container">
+            <p>
+              11°C
+              <br />
+              🌦️ light rain
+              <br />
+              sunset:
+              <br />
+              sunrise:
+            </p>
+          </div>
 
-        <div class="current-temperature-container">
-          <p>
-            11°C
-            <br />
-            🌦️ light rain
-            <br />
-            sunset:
-            <br />
-            sunrise:
-          </p>
-        </div>
+          <div class="current-humidity-container">
+            <p>
+              Humidity: <br />
+              91% <br />
+              Wind: <br />12.86km/h
+            </p>
+          </div>
 
-        <div class="current-humidity-container">
-          <p>
-            Humidity: <br />
-            91% <br />
-            Wind: <br />12.86km/h
-          </p>
-        </div>
-
-        <div class="current-moon-container">
-          <p>
-            🌕
-            <br />
-            Full Moon in Capricorn
-            <br />
-            Moon rise:
-            <br />
-            Moon set:
-          </p>
+          <div class="current-moon-container">
+            <p>
+              🌕
+              <br />
+              Full Moon in Capricorn
+              <br />
+              Moon rise:
+              <br />
+              Moon set:
+            </p>
+          </div>
         </div>
       </main>
     </div>

@@ -13,3 +13,42 @@ body {
   border-radius: 20px;
   padding: 30px;
 }
+
+.header-container {
+  border-bottom: solid rgb(217, 164, 129);
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5px;
+}
+
+h1 {
+  border: none;
+  width: 70%;
+  padding: 0px 0px 0px 50px;
+  margin: 0 auto;
+}
+
+.search-form-container {
+  padding: 0px 50px 10px 0px;
+}
+
+.search-form-input {
+  background-color: rgb(234, 217, 207);
+  border: none;
+  border-radius: 6px;
+  width: 70%;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.current-temperature-container {
+  background-color: rgb(217, 164, 129);
+}
+
+.current-humidity-container {
+  background-color: rgb(217, 164, 129);
+}
+
+.current-moon-container {
+  background-color: rgb(217, 164, 129);
+}
