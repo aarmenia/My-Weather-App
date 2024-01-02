@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(234, 217, 207);
+  font-family: "Anonymous Pro", monospace;
+  font-family: "Kanit", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+
+.main-container {
+  background-color: rgb(244, 201, 173);
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  max-width: 900px;
+  margin: 30px auto;
+  border-radius: 20px;
+  padding: 30px;
+}
