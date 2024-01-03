@@ -15,7 +15,7 @@ body {
 }
 
 .header-container {
-  border-bottom: solid rgb(244, 201, 173);
+  border-bottom: solid rgb(80, 118, 125);
   display: flex;
   justify-content: space-around;
   padding-bottom: 5px;
@@ -23,6 +23,7 @@ body {
 
 h1 {
   border: none;
+  color: rgb(26, 62, 62);
   width: 70%;
   padding: 0px 0px 0px 50px;
   margin: 0 auto;
@@ -42,12 +43,14 @@ h1 {
   width: 72%;
 }
 .search-form-button {
-  background-color: rgb(234, 217, 207);
+  background-color: rgb(80, 118, 125);
   border: none;
   border-radius: 5px;
+  color: rgb(244, 201, 173);
   font-size: 14px;
-  box-shadow: 1px 1px 2px rgb(244, 201, 173);
+  box-shadow: 1px 1px 2px rgb(26, 62, 62);
   width: 25%;
+  padding: 10px;
 }
 
 .current-date {
