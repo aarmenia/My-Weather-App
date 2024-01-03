@@ -30,19 +30,24 @@ h1 {
 
 .search-form-container {
   padding: 0px 50px 10px 0px;
-  width: 35%;
 }
 
 .search-form-input {
   background-color: rgb(234, 217, 207);
   border: none;
-  border-radius: 6px;
-  /* width: 70%; */
+  border-radius: 5px;
   font-size: 16px;
   padding: 10px 20px;
+  box-shadow: 1px 1px 2px rgb(244, 201, 173);
+  width: 72%;
 }
 .search-form-button {
-  /* width: 50%; */
+  background-color: rgb(234, 217, 207);
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  box-shadow: 1px 1px 2px rgb(244, 201, 173);
+  width: 25%;
 }
 
 .current-date {
