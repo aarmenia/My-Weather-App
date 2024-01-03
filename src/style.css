@@ -91,6 +91,7 @@ h1 {
 }
 
 footer {
-  display: block;
   text-align: center;
+  border-top: solid rgb(80, 118, 125);
+  padding-top: 15px;
 }
