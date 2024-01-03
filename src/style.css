@@ -25,12 +25,14 @@ a {
   padding-bottom: 5px;
 }
 
-h1 {
+.current-city {
   border: none;
   color: rgb(26, 62, 62);
-  width: 70%;
-  padding: 0px 0px 0px 50px;
+  font-size: 38px;
+  line-height: 48px;
   margin: 0 auto;
+  padding: 0px 0px 0px 50px;
+  width: 70%;
 }
 
 .search-form-input {
@@ -65,33 +67,131 @@ h1 {
 }
 
 .current-temperature-container {
+  color: rgb(26, 62, 62);
   background-color: rgb(244, 201, 173);
   border-radius: 10px;
   box-shadow: 3px 3px 2px rgb(158, 88, 58);
   height: 300px;
   margin: 30px auto;
-  padding: 10px 70px 10px 70px;
+  padding: 0px 70px 0px 70px;
   text-align: center;
+}
+
+.weather-emoji {
+  font-size: 38px;
+  padding-top: 20px;
+}
+
+.desciption-weather {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.current-temperature-value {
+  font-size: 50px;
+  padding-top: 20px;
+  line-height: 50px;
+}
+.sun-hours-container {
+  padding-top: 20px;
+}
+.today-sunrise {
+  font-size: 15px;
+}
+.today-sunrise-hour {
+  font-size: 12px;
+}
+.today-sunset {
+  font-size: 15px;
+}
+.today-sunset-hour {
+  font-size: 12px;
 }
 
 .current-humidity-container {
+  color: rgb(26, 62, 62);
   background-color: rgb(244, 201, 173);
   border-radius: 10px;
   box-shadow: 3px 3px 2px rgb(158, 88, 58);
   height: 300px;
   margin: 30px auto;
-  padding: 10px 70px 10px 70px;
+  padding: 0px 70px 0px 70px;
   text-align: center;
 }
 
+.wind-emoji {
+  font-size: 38px;
+  padding-top: 20px;
+}
+
+.current-wind {
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+.current-wind-value {
+  font-size: 20px;
+}
+
+.humidity-emoji {
+  font-size: 38px;
+  padding-top: 20px;
+}
+.current-humidity {
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+.current-humidity-value {
+  font-size: 20px;
+}
+
 .current-moon-container {
+  color: rgb(26, 62, 62);
   background-color: rgb(244, 201, 173);
   border-radius: 10px;
   box-shadow: 3px 3px 2px rgb(158, 88, 58);
   height: 300px;
   margin: 30px auto;
-  padding: 10px 70px 10px 70px;
+  padding: 0px 70px 0px 70px;
   text-align: center;
+}
+
+.moon-emoji {
+  font-size: 38px;
+  padding-top: 20px;
+}
+
+.moon-description {
+  font-size: 20px;
+  line-height: 20px;
+  padding-top: 5px;
+}
+
+.moon-sign {
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.sign-emoji {
+  font-size: 25px;
+  padding: 5px;
+}
+
+.moon-hours-container {
+  padding-top: 15px;
+}
+.moon-rise {
+  font-size: 15px;
+}
+.moon-rise-hour {
+  font-size: 12px;
+}
+.moon-set {
+  font-size: 15px;
+}
+.moon-set-hour {
+  font-size: 12px;
 }
 
 footer {

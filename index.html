@@ -15,7 +15,7 @@
   <body>
     <div class="body-container">
       <header class="header-container">
-        <h1>Current City</h1>
+        <h1 class="current-city">Current City</h1>
 
         <div class="search-form-container">
           <form class="search-form">
@@ -28,42 +28,37 @@
         <div class="current-date">Friday, 13th November, 14:20</div>
         <div class="details-container">
           <div class="current-temperature-container">
-            <p>
-              🌦️
-              <br />
-              light rain
-              <br />
-              11°C
-              <br />
-              sunset:
-              <br />
-              sunrise:
-            </p>
+            <div class="weather-emoji">🌦️</div>
+            <div class="desciption-weather">light rain</div>
+            <div class="current-temperature-value">11°C</div>
+            <div class="sun-hours-container">
+              <div class="today-sunrise">sunrise:</div>
+              <div class="today-sunrise-hour">06:27</div>
+              <div class="today-sunset">sunset:</div>
+              <div class="today-sunset-hour">19:45</div>
+            </div>
           </div>
 
           <div class="current-humidity-container">
-            <p>
-              💨
-              <br />
-              Wind: <br />12.86km/h
-              <br />
-              Humidity: <br />
-              91% <br />
-            </p>
+            <div class="wind-emoji">💨</div>
+            <div class="current-wind">Wind:</div>
+            <div class="current-wind-value">12.86 km/h</div>
+            <div class="humidity-emoji">💦</div>
+            <div class="current-humidity">Humidity:</div>
+            <div class="current-humidity-value">91%</div>
           </div>
 
           <div class="current-moon-container">
-            <p>
-              🌕
-              <br />
-              Full Moon
-              <br />
-              Capricorn
-              <br />
-              Moon rise:
-              <br />
-              Moon set:
-            </p>
+            <div class="moon-emoji">🌕</div>
+            <div class="moon-description">Full Moon</div>
+            <div class="moon-sign">Capricorn</div>
+            <div class="sign-emoji">♑︎</div>
+            <div class="moon-hours-container">
+              <div class="moon-rise">Moon rise:</div>
+              <div class="moon-rise-hour">23:05</div>
+              <div class="moon-set">Moon set:</div>
+              <div class="moon-set-hour">09:15</div>
+            </div>
           </div>
         </div>
       </main>
