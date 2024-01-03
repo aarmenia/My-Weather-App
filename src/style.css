@@ -29,10 +29,6 @@ h1 {
   margin: 0 auto;
 }
 
-.search-form-container {
-  padding: 0px 50px 10px 0px;
-}
-
 .search-form-input {
   background-color: rgb(234, 217, 207);
   border: none;
@@ -40,7 +36,7 @@ h1 {
   font-size: 16px;
   padding: 10px 20px;
   box-shadow: 1px 1px 2px rgb(244, 201, 173);
-  width: 72%;
+  width: 70%;
 }
 .search-form-button {
   background-color: rgb(80, 118, 125);
@@ -51,6 +47,7 @@ h1 {
   box-shadow: 1px 1px 2px rgb(26, 62, 62);
   width: 25%;
   padding: 10px;
+  margin-left: 5px;
 }
 
 .current-date {
