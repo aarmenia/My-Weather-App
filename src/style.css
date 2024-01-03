@@ -5,7 +5,7 @@ body {
   font-family: "Roboto Slab", serif;
 }
 
-.main-container {
+.body-container {
   background-color: whitesmoke;
   box-shadow: 3px 3px 1px rgba(192, 192, 192, 0.3);
   max-width: 900px;
@@ -64,30 +64,30 @@ h1 {
   background-color: rgb(244, 201, 173);
   border-radius: 10px;
   box-shadow: 3px 3px 2px rgb(158, 88, 58);
+  height: 300px;
   margin: 30px auto;
-  max-width: 90px;
-  padding: 30px;
+  padding: 10px 70px 10px 70px;
   text-align: center;
 }
 
 .current-humidity-container {
-  text-align: center;
   background-color: rgb(244, 201, 173);
   border-radius: 10px;
   box-shadow: 3px 3px 2px rgb(158, 88, 58);
+  height: 300px;
   margin: 30px auto;
-  max-width: 90px;
-  padding: 30px;
+  padding: 10px 70px 10px 70px;
+  text-align: center;
 }
 
 .current-moon-container {
-  text-align: center;
   background-color: rgb(244, 201, 173);
   border-radius: 10px;
   box-shadow: 3px 3px 2px rgb(158, 88, 58);
+  height: 300px;
   margin: 30px auto;
-  max-width: 90px;
-  padding: 30px;
+  padding: 10px 70px 10px 70px;
+  text-align: center;
 }
 
 footer {
