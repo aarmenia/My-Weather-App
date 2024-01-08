@@ -79,13 +79,13 @@ a {
 }
 
 .weather-emoji {
-  font-size: 38px;
-  padding-top: 20px;
+  font-size: 15px;
+  padding-top: 5px;
 }
 
 .desciption-weather {
   font-size: 18px;
-  line-height: 20px;
+  line-height: 15px;
 }
 
 .current-temperature-value {
@@ -94,7 +94,7 @@ a {
   line-height: 50px;
 }
 .sun-hours-container {
-  padding-top: 20px;
+  padding-top: 15px;
 }
 .today-sunrise {
   font-size: 15px;
