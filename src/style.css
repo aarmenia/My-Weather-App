@@ -57,8 +57,9 @@ a {
 }
 
 .current-date {
+  color: rgb(26, 62, 62);
   font-size: 15px;
-  padding: 15px 0px 0px 45px;
+  padding: 15px 0px 0px 50px;
 }
 
 .details-container {
