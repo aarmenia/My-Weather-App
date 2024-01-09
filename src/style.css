@@ -65,6 +65,7 @@ a {
 .details-container {
   display: flex;
   justify-content: space-around;
+  max-width: 900px;
 }
 
 .current-temperature-container {
@@ -73,7 +74,8 @@ a {
   border-radius: 10px;
   box-shadow: 3px 3px 2px rgb(158, 88, 58);
   height: 300px;
-  margin: 30px auto;
+  margin: 30px;
+  width: 200px;
   padding: 0px 70px 0px 70px;
   text-align: center;
 }
@@ -115,9 +117,10 @@ a {
   border-radius: 10px;
   box-shadow: 3px 3px 2px rgb(158, 88, 58);
   height: 300px;
-  margin: 30px auto;
+  margin: 30px;
   padding: 0px 70px 0px 70px;
   text-align: center;
+  width: 200px;
 }
 
 .wind-emoji {
@@ -153,9 +156,10 @@ a {
   border-radius: 10px;
   box-shadow: 3px 3px 2px rgb(158, 88, 58);
   height: 300px;
-  margin: 30px auto;
+  margin: 30px;
   padding: 0px 70px 0px 70px;
   text-align: center;
+  width: 200px;
 }
 
 .moon-emoji {

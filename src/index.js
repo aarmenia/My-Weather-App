@@ -1,5 +1,5 @@
 function updateWeather(response) {
-  temperatureElement = document.querySelector("#current-temperature-value");
+  let temperatureElement = document.querySelector("#current-temperature-value");
   let temperature = response.data.temperature.current;
   let cityElement = document.querySelector("#current-city");
   let descriptionElement = document.querySelector("#desciption-weather");
@@ -18,6 +18,7 @@ function updateWeather(response) {
   temperatureElement.innerHTML = Math.round(temperature);
 }
 
+// DATE
 function formatDate(date) {
   let minutes = date.getMinutes();
   let hours = date.getHours();
@@ -38,16 +39,21 @@ function formatDate(date) {
   return `${day}, ${hours}:${minutes}`;
 }
 
+// API CALL
 function searchCity(city) {
   let apiKey = "9t4ae39180bc03c6079f49f3f02o4cd0";
   let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
-  axios.get(apiUrl).then(updateWeather);
+  axios.get(apiUrl).then((response) => {
+    updateWeather(response);
+    sunriseHours(response);
+    sunsetHours(response);
+  });
 }
 
+// CITY FORM
 function handleSearchSubmit(event) {
   event.preventDefault();
   let searchInput = document.querySelector("#search-form-input");
-
   searchCity(searchInput.value);
 }
 
@@ -55,3 +61,52 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("London");
+
+// SUNRISE
+function sunriseHours(response) {
+  let city = response.data.city;
+  let apiKey = "5cef9bdee3d7a31bbfc11fb0c68e1950";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
+  axios.get(apiUrl).then(sunrise);
+}
+
+function sunrise(response) {
+  let sunriseElement = document.querySelector("#today-sunrise-hour");
+  let date = new Date(response.data.sys.sunrise * 1000);
+  sunriseElement.innerHTML = formatDateRiseAndSet(date);
+}
+
+// SUNSET
+function sunsetHours(response) {
+  let city = response.data.city;
+  let apiKey = "5cef9bdee3d7a31bbfc11fb0c68e1950";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
+  axios.get(apiUrl).then(sunset);
+}
+
+function sunset(response) {
+  let sunsetElement = document.querySelector("#today-sunset-hour");
+  let date = new Date(response.data.sys.sunset * 1000);
+  sunsetElement.innerHTML = formatDateRiseAndSet(date);
+}
+
+// SUNRISE AND SUNSET FORMATED DATE
+function formatDateRiseAndSet(date) {
+  let minutes = date.getMinutes();
+  let hours = date.getHours();
+
+  let days = [
+    "Sunday",
+    "Tuesday",
+    "Wendesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+  ];
+
+  if (minutes < 10) {
+    minutes = `0${minutes}`;
+  }
+  return `${hours}:${minutes}`;
+}
