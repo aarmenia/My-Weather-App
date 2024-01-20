@@ -12,7 +12,7 @@ a {
 .body-container {
   background-color: whitesmoke;
   box-shadow: 3px 3px 1px rgba(192, 192, 192, 0.3);
-  max-width: 900px;
+  max-width: 700px;
   margin: 30px auto;
   border-radius: 20px;
   padding: 30px;
@@ -42,7 +42,7 @@ a {
   font-size: 16px;
   padding: 10px 20px;
   box-shadow: 1px 1px 2px rgb(244, 201, 173);
-  width: 70%;
+  width: 60%;
 }
 .search-form-button {
   background-color: rgb(80, 118, 125);
@@ -51,152 +51,89 @@ a {
   color: rgb(244, 201, 173);
   font-size: 14px;
   box-shadow: 1px 1px 2px rgb(26, 62, 62);
-  width: 25%;
+  width: 30%;
   padding: 10px;
   margin-left: 5px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-container {
+  margin-top: 20px;
+  font-size: 16px;
+  margin-left: 50px;
 }
 
 .current-date {
   color: rgb(26, 62, 62);
   font-size: 15px;
-  padding: 15px 0px 0px 50px;
-}
-
-.details-container {
-  display: flex;
-  justify-content: space-around;
-  max-width: 900px;
-}
-
-.current-temperature-container {
-  color: rgb(26, 62, 62);
-  background-color: rgb(244, 201, 173);
-  border-radius: 10px;
-  box-shadow: 3px 3px 2px rgb(158, 88, 58);
-  height: 300px;
-  margin: 30px;
-  width: 200px;
-  padding: 0px 70px 0px 70px;
-  text-align: center;
-}
-
-.weather-emoji {
-  font-size: 15px;
-  padding-top: 5px;
 }
 
 .desciption-weather {
-  font-size: 18px;
-  line-height: 15px;
-}
-
-.current-temperature-value {
-  font-size: 50px;
-  padding-top: 20px;
-  line-height: 50px;
-}
-.sun-hours-container {
-  padding-top: 15px;
-}
-.today-sunrise {
-  font-size: 15px;
-}
-.today-sunrise-hour {
-  font-size: 12px;
-}
-.today-sunset {
-  font-size: 15px;
-}
-.today-sunset-hour {
-  font-size: 12px;
-}
-
-.current-humidity-container {
+  margin-bottom: 10px;
+  margin-top: 10px;
   color: rgb(26, 62, 62);
-  background-color: rgb(244, 201, 173);
-  border-radius: 10px;
-  box-shadow: 3px 3px 2px rgb(158, 88, 58);
-  height: 300px;
-  margin: 30px;
-  padding: 0px 70px 0px 70px;
-  text-align: center;
-  width: 200px;
-}
-
-.wind-emoji {
-  font-size: 38px;
-  padding-top: 20px;
+  font-weight: 500;
 }
 
 .current-wind {
-  font-size: 15px;
-  padding-top: 5px;
+  color: rgb(26, 62, 62);
 }
 
 .current-wind-value {
-  font-size: 20px;
+  color: rgb(26, 62, 62);
+  font-weight: 500;
 }
 
-.humidity-emoji {
-  font-size: 38px;
-  padding-top: 20px;
-}
 .current-humidity {
-  font-size: 15px;
-  padding-top: 5px;
+  color: rgb(26, 62, 62);
 }
 
 .current-humidity-value {
-  font-size: 20px;
-}
-
-.current-moon-container {
   color: rgb(26, 62, 62);
-  background-color: rgb(244, 201, 173);
-  border-radius: 10px;
-  box-shadow: 3px 3px 2px rgb(158, 88, 58);
-  height: 300px;
-  margin: 30px;
-  padding: 0px 70px 0px 70px;
-  text-align: center;
-  width: 200px;
+  font-weight: 500;
 }
 
-.moon-emoji {
-  font-size: 38px;
-  padding-top: 20px;
+.today-sunrise {
+  color: rgb(26, 62, 62);
 }
 
-.moon-description {
-  font-size: 20px;
-  line-height: 20px;
-  padding-top: 5px;
+.today-sunrise-hour {
+  color: rgb(26, 62, 62);
+  font-weight: 500;
 }
 
-.moon-sign {
-  font-size: 15px;
-  padding-top: 10px;
+.today-sunset {
+  color: rgb(26, 62, 62);
 }
 
-.sign-emoji {
-  font-size: 25px;
-  padding: 5px;
+.today-sunset-hour {
+  color: rgb(26, 62, 62);
+  font-weight: 500;
 }
 
-.moon-hours-container {
-  padding-top: 15px;
+.temperature-container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 60px;
 }
-.moon-rise {
-  font-size: 15px;
+
+.weather-emoji {
+  margin-top: 40px;
+  margin-right: 15px;
 }
-.moon-rise-hour {
-  font-size: 12px;
+
+.current-temperature-value {
+  font-size: 88px;
+  margin-top: 30px;
 }
-.moon-set {
-  font-size: 15px;
-}
-.moon-set-hour {
-  font-size: 12px;
+
+.weather-unit {
+  font-size: 30px;
+  margin-top: 40px;
 }
 
 footer {

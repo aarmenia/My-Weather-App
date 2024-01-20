@@ -31,58 +31,52 @@
         </div>
       </header>
       <main>
-        <div class="current-date" id="current-date"></div>
-        <div class="details-container">
-          <div class="current-temperature-container">
-            <div class="weather-emoji" id="weather-emoji"></div>
+        <div class="main-container">
+          <div class="details-container">
+            <div class="current-date" id="current-date"></div>
 
-            <div class="desciption-weather" id="desciption-weather"></div>
-            <div
+            <div class="description-container">
+              <div class="desciption-weather" id="desciption-weather"></div>
+            </div>
+            <div class="wind-container">
+              <span class="current-wind">Wind:</span>
+              <span class="current-wind-value" id="current-wind-value"></span>
+            </div>
+            <div class="humidity-container">
+              <span class="current-humidity">Humidity:</span>
+              <span class="current-humidity-value" id="current-humidity"></span>
+            </div>
+            <div class="sunrise-container">
+              <span class="today-sunrise">sunrise:</span>
+              <span class="today-sunrise-hour" id="today-sunrise-hour"></span>
+            </div>
+            <div class="sunset-container">
+              <span class="today-sunset">sunset:</span>
+              <span class="today-sunset-hour" id="today-sunset-hour"></span>
+            </div>
+          </div>
+
+          <div class="temperature-container">
+            <div class="weather-emoji" id="weather-emoji"></div>
+            <h1
               class="current-temperature-value"
               id="current-temperature-value"
-            ></div>
-            <div class="sun-hours-container">
-              <div class="today-sunrise">sunrise:</div>
-              <div class="today-sunrise-hour" id="today-sunrise-hour"></div>
-              <div class="today-sunset">sunset:</div>
-              <div class="today-sunset-hour" id="today-sunset-hour"></div>
-            </div>
-          </div>
-
-          <div class="current-humidity-container">
-            <div class="wind-emoji">💨</div>
-            <div class="current-wind">Wind:</div>
-            <div class="current-wind-value" id="current-wind-value"></div>
-            <div class="humidity-emoji">💦</div>
-            <div class="current-humidity">Humidity:</div>
-            <div class="current-humidity-value" id="current-humidity"></div>
-          </div>
-
-          <div class="current-moon-container">
-            <div class="moon-emoji">🌕</div>
-            <div class="moon-description">Full Moon</div>
-            <div class="moon-sign">Capricorn</div>
-            <div class="sign-emoji">♑︎</div>
-            <div class="moon-hours-container">
-              <div class="moon-rise">Moon rise:</div>
-              <div class="moon-rise-hour">23:05</div>
-              <div class="moon-set">Moon set:</div>
-              <div class="moon-set-hour">09:15</div>
-            </div>
+            ></h1>
+            <div class="weather-unit">°C</div>
           </div>
         </div>
       </main>
 
       <footer>
-        Built by
+        This project was coded by
         <a href="https://github.com/aarmenia" target="_blank">Arménia Silva</a>,
-        is open sourced on
+        is
         <a href="https://github.com/aarmenia/My-Weather-App" target="_blank"
-          >Github</a
+          >open sourced on Github</a
         >
-        and hosted on
+        and
         <a href="https://armenia-weather-app.netlify.app/" target="_blank"
-          >Netlify</a
+          >hosted on Netlify</a
         >
       </footer>
     </div>
