@@ -62,60 +62,52 @@ a {
 }
 
 .details-container {
+  color: rgb(26, 62, 62);
   margin-top: 20px;
   font-size: 16px;
   margin-left: 50px;
 }
 
-.current-date {
-  color: rgb(26, 62, 62);
-  font-size: 15px;
-}
-
 .desciption-weather {
   margin-bottom: 10px;
   margin-top: 10px;
-  color: rgb(26, 62, 62);
-  font-weight: 500;
+  font-weight: 450;
 }
 
 .current-wind {
-  color: rgb(26, 62, 62);
+  opacity: 0.7;
 }
 
 .current-wind-value {
-  color: rgb(26, 62, 62);
-  font-weight: 500;
+  font-weight: 450;
 }
 
 .current-humidity {
-  color: rgb(26, 62, 62);
+  opacity: 0.7;
 }
 
 .current-humidity-value {
-  color: rgb(26, 62, 62);
-  font-weight: 500;
+  font-weight: 450;
 }
 
 .today-sunrise {
-  color: rgb(26, 62, 62);
+  opacity: 0.7;
 }
 
 .today-sunrise-hour {
-  color: rgb(26, 62, 62);
-  font-weight: 500;
+  font-weight: 450;
 }
 
 .today-sunset {
-  color: rgb(26, 62, 62);
+  opacity: 0.7;
 }
 
 .today-sunset-hour {
-  color: rgb(26, 62, 62);
-  font-weight: 500;
+  font-weight: 450;
 }
 
 .temperature-container {
+  color: rgb(26, 62, 62);
   display: flex;
   justify-content: space-between;
   margin-right: 60px;
